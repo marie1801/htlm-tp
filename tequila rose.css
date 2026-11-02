@@ -1,0 +1,136 @@
+/*body {
+    background-color :  rgb(223, 151, 151);
+}*/
+body {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+#main_container {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: #e97988;
+    background-image: url("./image/roseee.png");
+    width: 100%;
+}
+
+#main_container {
+    width: 70%;
+    margin: auto;
+    background-color: #f7ede9;
+    padding: 30px;
+}
+
+footer {
+    background-color: #f7b2bb;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #f7b2bb;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 15px;
+}
+
+header img {
+    height: 3%;
+    width: 60px;
+}
+
+.main_container {
+    margin: 20px auto;
+}
+
+.presentation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentation img {
+    width: 45%;
+}
+
+.presentation p {
+    width: 45%;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_ingredients,
+#section_recette {
+    width: 45%;
+}
+
+#section_ingredients {
+    background-color: rgba(231, 168, 184, 0.5);
+}
+
+#section_recette {
+    background-color: rgba(184, 41, 96, 0.5);
+    background-image: url("images/grainrose.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgCocktail {
+    width: 45%;
+}
+
+#imgCocktail img {
+    width: 100%;
+}
+.presentation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenu{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1024px */
+@media all and (max-width:1024px) {
+    #main_container{
+        width: 80%;
+        padding:5%;
+    }
+}      
+
+@media screen and (max-width: 425px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        padding: 10px 0;
+    }
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    .contenu {
+        flex-direction: column;
+    }
+    #imgCocktail,
+    .presentation p,
+    #section_ingredients,
+    #section_recette {
+        width: 100%;
+    }
+
+    #main_container {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+}
